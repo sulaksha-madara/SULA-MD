@@ -24,7 +24,7 @@ ALLWAYS_OFFLINE: process.env.ALLWAYS_OFFLINE === undefined ? "false" : process.e
 READ_CMD: process.env.READ_CMD === undefined ? "false" : process.env.READ_CMD,
 FAKE_RECORDING: process.env.FAKE_RECORDING === undefined ? "false" : process.env.FAKE_RECORDING,
 AI_CHAT: process.env.AI_CHAT === undefined ? "false" : process.env.AI_CHAT,
-AUTO_REACT: process.env.AUTO_REACT === undefined ? "false" : process.env.AUTO_REACT,
+AUTO_REACT: process.env.AUTO_REACT === undefined ? "true" : process.env.AUTO_REACT,
 BAD_NO_BLOCK: process.env.BAD_NO_BLOCK === undefined ? "false" : process.env.BAD_NO_BLOCK,
 NEWS_SEND_JID: process.env.NEWS_SEND_JID === undefined ? "" : process.env.NEWS_SEND_JID,
 AUTO_NEWS_SENDER: process.env.AUTO_NEWS_SENDER === undefined ? "false" : process.env.AUTO_NEWS_SENDER,
